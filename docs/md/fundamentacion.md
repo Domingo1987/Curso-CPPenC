@@ -3,8 +3,8 @@
 ## Tabla de contenidos
 
 - [Fundamentación](https://domingo1987.github.io/Curso-CPPenC/docs/md/fundamentacion.md)
-- [Objetivos](#objetivos)
-- [Metodología](#metodología)
+- [Objetivos](https://domingo1987.github.io/Curso-CPPenC/docs/md/objetivos.md)
+- [Metodología](https://domingo1987.github.io/Curso-CPPenC/docs/md/metodologia.md)
 - [Secuencia de contenidos](#secuencia-de-contenidos)
 - [Bibliografía](#bibliografía)
 
