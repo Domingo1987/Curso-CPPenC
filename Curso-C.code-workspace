@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"lista_empleados.h": "c",
+			"stdlib.h": "c"
+		},
+		"cSpell.ignoreWords": [
+			"lista",
+			"utilizando"
+		]
+	}
+}
