@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Programación 2: Referencia de la Estructura ListaEmpleados</title>
+<title>Programación 2: Referencia de la Estructura Nodo</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,53 +69,55 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Atributos públicos</a> &#124;
-<a href="structListaEmpleados-members.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la Estructura ListaEmpleados</div></div>
+<a href="struct_nodo-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la Estructura Nodo</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Estructura de la lista enlazada.  
- <a href="structListaEmpleados.html#details">Más...</a></p>
+<p>Estructura que representa un nodo de la lista enlazada de empleados.  
+ <a href="struct_nodo.html#details">Más...</a></p>
 
 <p><code>#include &lt;<a class="el" href="lista__empleados_8h_source.html">lista_empleados.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Atributos públicos</h2></td></tr>
-<tr class="memitem:a70afcc7508b78f66066fa19aa1c468a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structNodo.html">Nodo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structListaEmpleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a></td></tr>
-<tr class="separator:a70afcc7508b78f66066fa19aa1c468a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00c2ff22cacdef0c94aa4dc39a01c091"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structListaEmpleados.html#a00c2ff22cacdef0c94aa4dc39a01c091">longitud</a></td></tr>
-<tr class="separator:a00c2ff22cacdef0c94aa4dc39a01c091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f216b4a9f20d3d43fc701fa3220c91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_empleado.html">Empleado</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a></td></tr>
+<tr class="separator:ae5f216b4a9f20d3d43fc701fa3220c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718cef7e7f2fc51b6efcd2df5b43733b"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_nodo.html">Nodo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a></td></tr>
+<tr class="separator:a718cef7e7f2fc51b6efcd2df5b43733b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Estructura de la lista enlazada. </p>
+<div class="textblock"><p>Estructura que representa un nodo de la lista enlazada de empleados. </p>
 </div><h2 class="groupheader">Documentación de los datos miembro</h2>
-<a id="a70afcc7508b78f66066fa19aa1c468a6" name="a70afcc7508b78f66066fa19aa1c468a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70afcc7508b78f66066fa19aa1c468a6">&#9670;&#160;</a></span>cabeza</h2>
+<a id="ae5f216b4a9f20d3d43fc701fa3220c91" name="ae5f216b4a9f20d3d43fc701fa3220c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f216b4a9f20d3d43fc701fa3220c91">&#9670;&#160;</a></span>empleado</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structNodo.html">Nodo</a>* ListaEmpleados::cabeza</td>
+          <td class="memname">Nodo::empleado</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Puntero al primer nodo de la lista </p>
+<p><a class="el" href="struct_empleado.html" title="Estructura que representa a un empleado con su nombre, id y salario mensual.">Empleado</a> almacenado en el nodo</p>
+<p>Puntero a miembro que almacena al empleado en el nodo. </p>
 
 </div>
 </div>
-<a id="a00c2ff22cacdef0c94aa4dc39a01c091" name="a00c2ff22cacdef0c94aa4dc39a01c091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00c2ff22cacdef0c94aa4dc39a01c091">&#9670;&#160;</a></span>longitud</h2>
+<a id="a718cef7e7f2fc51b6efcd2df5b43733b" name="a718cef7e7f2fc51b6efcd2df5b43733b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a718cef7e7f2fc51b6efcd2df5b43733b">&#9670;&#160;</a></span>siguiente</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ListaEmpleados::longitud</td>
+          <td class="memname">Nodo::siguiente</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Cantidad de nodos en la lista </p>
+<p>Puntero al siguiente nodo</p>
+<p>Puntero al siguiente nodo de la lista. </p>
 
 </div>
 </div>
