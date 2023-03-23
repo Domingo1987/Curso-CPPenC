@@ -2,62 +2,10 @@
 
 ## Tabla de contenidos
 
-- [Fundamentación](tablaContenidos.md#fundamentacion)
-- [Objetivos](tablaContenidos.md#objetivos)
-- [Metodología](tablaContenidos.md#metodologia)
-- [Secuencia de contenidos](tablaContenidos.md##secuencia-de-contenidos)
-- [Bibliografía](tablaContenidos.md##bibliografía)
+- [Fundamentación](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#fundamentacion)
+- [Objetivos](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#objetivos)
+- [Metodología](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#metodologia)
+- [Secuencia de contenidos](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#secuencia-de-contenidos)
+- [Bibliografía](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#bibliografía)
 
-
-## Secuencia de contenidos
-
-- Análisis de algoritmos
-  - Concepto y características de los algoritmos.
-  - Conceptos fundamentales
-  - Noción de orden de un algoritmo
-  - Análisis de algoritmos sobre estructuras conocidas
-  - Ejemplos de algoritmos clásicos
-- Tipo abstracto de dato (TAD)
-  - Introducción
-  - Concepto y características del TAD.
-  - Abstracción y encapsulamiento de datos
-  - Categorización de tipos abstractos de datos
-  - Programación orientada a objetos para la implementación de TAD: clases, objetos, herencia, polimorfismo y encapsulamiento.
-  - Secuencia:
-    - Arreglo vs std::vector
-    - Lista enlazada vs std::list
-    - Pila vs std::stack
-    - Cola vs std::queue
-    - Lista doblemente enlazada vs std::deque
-    - Lista circular vs std::forward_list
-  - Bolsa:
-    - Bolsa vs std::multiset , std::unordered_multiset
-  - Set:
-    - Conjunto vs std::set , std::unordered_set.
-  - Diccionario:
-    - Mapa vs std::map
-    - ABB , árbol AVL , tabla hash vs std::unordered_map
-  - Metodología de análisis de tipos abstractos de datos para resolución de problemas
-- Grafos
-  - Introducción
-  - Concepto de grafo, vértice y arista. Grafo como modelo de una realidad.
-  - Definición matemática de grafos
-  - Grafos dirigidos y no dirigidos. Costos de aristas.
-  - Camino, circuito, grafos conexos y fuertemente conexos.
-  - Lista de adyacencia vs matriz de adyacencia.
-  - Recorridas en grafos: DFS y BFS.
-  - Algoritmos de mínimo costo en grafos: Kruskal y Prim.
-  - Análisis de la eficiencia algorítmica en grafos: complejidad de algoritmos y heurísticas.
-
-## Bibliografía
-
-- Deitel, H. M., & Deitel, P. J. (1998). Como Programar en C/C++ (2da ed.). Prentice Hall.
-- Deitel, P., & Deitel, H. (2016). C++ How to Program (10th ed.). Pearson.
-- Gottfried, B. S. (1997). Programación en C. Serie Schaum. Mc Graw Hill. México.
-- Joyanes Aguilar, L., & Zahonero Martinez, I. (2001). Programación en C. Mc Graw Hill. España.
-- Kernighan, A., & Ritchie, D. (1988). The C Programming Language (2da ed.). Prentice Hall. 
-- Kernighan, A., & Ritchie, D. (1991). El Lenguaje de Programación C. Pearson Educación.
-- Schildt, H. (2001). C Manual de Referencia (4ª ed.). Mc Graw Hill. España.
-- Stroustrup, B. (2013). The C++ Programming Language (4th ed.). Addison-Wesley Professional.
-
-[Ver documentación aquí](https://domingo1987.github.io/Curso-CPPenC/docs/html/index.html)
+[Ver documentación de los proyectos aquí](https://domingo1987.github.io/Curso-CPPenC/docs/html/index.html)
