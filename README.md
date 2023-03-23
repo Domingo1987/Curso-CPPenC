@@ -2,18 +2,11 @@
 
 ## Tabla de contenidos
 
-- [Fundamentación](https://domingo1987.github.io/Curso-CPPenC/docs/html/fundamentacion.md)
+- [Fundamentación](https://domingo1987.github.io/Curso-CPPenC/docs/md/fundamentacion.md)
 - [Objetivos](#objetivos)
 - [Metodología](#metodología)
 - [Secuencia de contenidos](#secuencia-de-contenidos)
 - [Bibliografía](#bibliografía)
-
-## Fundamentación
-
-La asignatura de Programación 2 constituye una progresión natural en la formación de los estudiantes que han completado el curso de Programación 1, donde adquirieron habilidades básicas en programación estructurada utilizando el lenguaje C. En este nuevo curso, se busca ampliar el conocimiento y las habilidades de los estudiantes al abordar técnicas de programación más avanzadas y al introducir el análisis y diseño de algoritmos y estructuras de datos, utilizando tanto C como C++ para explorar diferentes enfoques y paradigmas.
-En el contexto actual de la industria del software y la tecnología de la información, es esencial que los estudiantes dominen no solo habilidades de programación básicas, sino también conceptos más avanzados y abstractos como el análisis de algoritmos y la implementación de tipos abstractos de datos (TAD). Estos temas permiten a los estudiantes enfrentar problemas más complejos y desarrollar soluciones de software eficientes y escalables, lo cual es fundamental en un mundo donde las aplicaciones y sistemas informáticos están en constante evolución.
-El estudio de diferentes enfoques para la implementación de TAD en C y C++ es un aspecto crucial de este curso. Al utilizar C++ junto con C, los estudiantes podrán contrastar y comprender las diferencias entre la programación estructurada y la programación orientada a objetos, así como las ventajas y desventajas de cada enfoque. Esta experiencia les permitirá tomar decisiones más informadas sobre qué enfoque utilizar en función de las necesidades y requisitos específicos de los proyectos en los que trabajen.
-Además, este curso tiene como objetivo fomentar el pensamiento crítico y analítico de los estudiantes al enfrentar problemas y desafíos en el desarrollo de software. Mediante la exploración de conceptos como grafos, algoritmos de mínimo costo y análisis de eficiencia algorítmica, los estudiantes aprenderán a evaluar y diseñar soluciones óptimas para problemas reales y aplicaciones prácticas en el ámbito de la informática.
 
 ## Objetivos
 
