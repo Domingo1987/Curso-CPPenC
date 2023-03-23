@@ -2,7 +2,7 @@
 
 ## Tabla de contenidos
 
-- [Fundamentación](#fundamentación)
+- [Fundamentación](https://domingo1987.github.io/Curso-CPPenC/docs/html/fundamentacion.md)
 - [Objetivos](#objetivos)
 - [Metodología](#metodología)
 - [Secuencia de contenidos](#secuencia-de-contenidos)
@@ -133,4 +133,4 @@ La incorporación de GitHub en la metodología de trabajo permitirá a los estud
 - Schildt, H. (2001). C Manual de Referencia (4ª ed.). Mc Graw Hill. España.
 - Stroustrup, B. (2013). The C++ Programming Language (4th ed.). Addison-Wesley Professional.
 
-[Ver documentación aquí](https://domingo1987.github.io/Curso-CPP/docs/html/index.html)
+[Ver documentación aquí](https://domingo1987.github.io/Curso-CPPenC/docs/html/index.html)
