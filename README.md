@@ -2,7 +2,7 @@
 
 ## Tabla de contenidos
 
-- [Fundamentación](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#fundamentacion)
+- [Fundamentación](tabla-contenidos.md#fundamentacion)
 - [Objetivos](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#objetivos)
 - [Metodología](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#metodologia)
 - [Secuencia de contenidos](https://github.com/Domingo1987/Curso-CPPenC/blob/main/tabla-contenidos.md#secuencia-de-contenidos)
