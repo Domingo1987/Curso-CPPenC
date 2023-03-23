@@ -61,7 +61,7 @@ PROJECT_BRIEF          =
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = docs/logoDIC.png
+PROJECT_LOGO           = _docs/logoDIC.png
 
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
@@ -69,7 +69,7 @@ PROJECT_LOGO           = docs/logoDIC.png
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = ./docs
+OUTPUT_DIRECTORY       = ./_docs
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -1332,7 +1332,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            = ./docs/header.html   
+HTML_HEADER            = ./_docs/header.html   
 #HTML_HEADER            = ./docs/html/header.html   
 #volviendo al header original
 #HTML_HEADER            = 
