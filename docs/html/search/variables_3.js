@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['longitud_0',['longitud',['../structlistaEmpleados.html#a205d91f001fc2547bb3cd0a1c60cfb23',1,'listaEmpleados']]]
+  ['longitud_0',['longitud',['../structListaEmpleados.html#a00c2ff22cacdef0c94aa4dc39a01c091',1,'ListaEmpleados']]]
 ];

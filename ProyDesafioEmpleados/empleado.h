@@ -24,7 +24,7 @@
  * @var Empleado::salario_mensual
  * Salario mensual del empleado.
  */
-typedef struct empleado {
+typedef struct Empleado {
     char nombre[50]; /**< Nombre del empleado */
     int id; /**< Identificación única del empleado */
     float salario_mensual; /**< Salario mensual del empleado */

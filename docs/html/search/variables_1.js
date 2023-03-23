@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['empleado_0',['empleado',['../structnodo.html#a6f0a89497a8d9544de7b742b68037827',1,'nodo']]]
+  ['empleado_0',['empleado',['../structNodo.html#ae5f216b4a9f20d3d43fc701fa3220c91',1,'Nodo']]]
 ];

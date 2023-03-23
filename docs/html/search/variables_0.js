@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cabeza_0',['cabeza',['../structlistaEmpleados.html#ad0a65d23ae8f5b6b278d707e87b3ac68',1,'listaEmpleados']]]
+  ['cabeza_0',['cabeza',['../structListaEmpleados.html#a70afcc7508b78f66066fa19aa1c468a6',1,'ListaEmpleados']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['salario_5fmensual_0',['salario_mensual',['../structempleado.html#aa41019a6d30022a6ca319e65e3405301',1,'empleado']]],
-  ['siguiente_1',['siguiente',['../structnodo.html#a709b573fe3adc1c0ff0b8bf789d4a35d',1,'nodo']]]
+  ['salario_5fmensual_0',['salario_mensual',['../structEmpleado.html#a09c77236205391b1648a79c1fcbf5a0a',1,'Empleado']]],
+  ['siguiente_1',['siguiente',['../structNodo.html#a718cef7e7f2fc51b6efcd2df5b43733b',1,'Nodo']]]
 ];

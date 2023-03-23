@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nodo_0',['Nodo',['../lista__empleados_8h.html#a46556b0fd3be65be11d967516d9866f1',1,'lista_empleados.h']]]
+  ['nodo_0',['Nodo',['../lista__empleados_8h.html#ab27a17935caedd91258058c352971251',1,'lista_empleados.h']]]
 ];
