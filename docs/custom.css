@@ -34,17 +34,9 @@
   width: 100%;
   border-bottom: 1px solid var(--title-separator-color);
   background-color: #a9518b;
-  display: inline-block;
+  display: inline-flex;
   font-weight: 400;
   font-size: 14px;
   font-family: var(--font-family-normal);
   line-height: 22px;
-}
-
-body, table, div, p, dl {
-  font-weight: 400;
-  font-size: 14px;
-  font-family: var(--font-family-normal);
-  line-height: 22px;
-  display: contents;
 }
