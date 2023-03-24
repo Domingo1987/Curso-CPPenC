@@ -1,4 +1,5 @@
 .logo-image {
+  align-items: center; /* para centrar verticalmente */
   width: 80%;
 }
 
@@ -8,8 +9,17 @@
 }
 
 .button-image {
+  align-items: center; /* para centrar verticalmente */
   width: 20%;
   text-align: right;
+}
+
+.button-text {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  color: #fff;
+  margin-right: 10px;
 }
 
 .button-img {
