@@ -35,8 +35,15 @@ jobs:
         with:
           source: ./
           destination: ./_site
+          #new
+      - name: Copy custom header
+        run: cp docs/headerButton.html _site/headerButton.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        # cambio
+        with:
+          name: site
+          path: _site
 
   # Deployment job
   deploy:
@@ -47,5 +54,13 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: gh-pages
+          folder: _site
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          single-commit: true
+      #- name: Deploy to GitHub Pages
+       # id: deployment
+        #uses: actions/deploy-pages@v1
