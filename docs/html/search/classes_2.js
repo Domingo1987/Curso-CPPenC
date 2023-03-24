@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['nodo_0',['Nodo',['../struct_nodo.html',1,'']]]
+  ['nada_0',['Nada',['../struct_nada.html',1,'']]],
+  ['nodo_1',['Nodo',['../struct_nodo.html',1,'']]]
 ];
