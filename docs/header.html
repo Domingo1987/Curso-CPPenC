@@ -2,23 +2,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="$langISO">
 <head>
-  <style>
-    a.button {
-        position: absolute;
-        top: 0;
-        right: 0;
-        background: transparent url(docs/github-button.png) 0 0 no-repeat;
-        width: 134px;
-        height: 58px;
-        padding-top: 22px;
-        padding-left: 68px;
-        font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-        font-size: 23px;
-        line-height: 1.2;
-        color: #fff;
-    }
-  </style>
-
 
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -57,21 +40,13 @@ $extrastylesheet
  <tbody>
  <tr id="projectrow">
   <!--BEGIN PROJECT_LOGO-->
-  <td id="projectlogo">
-    <table>
-      <tr>
-        <td>Sección 1</td>
-        <td>Sección 2</td>
-        <!--BEGIN Botón de GitHub -->
-        <td id="projectbutton">
-          <a href="https://domingo1987.github.io/Curso-CPPenC/docs/html/index.html" class="button">
-            View Project on GitHub
-          </a>
-        </td>
-        <!--END Botón de GitHub -->
-      </tr>
-    </table>
-    <img alt="Logo" src="$relpath^$projectlogo"/>
+  <td id="projectlogo"> 
+    <div class="logo-wrapper">
+      <img alt="Logo" src="$relpath^$projectlogo"/>
+      <a href="https://github.com/Domingo1987/Curso-CPPenC" class="button">
+        Ver en GitHub
+      </a>
+    </div>
   </td>
   <!--END PROJECT_LOGO-->
 
