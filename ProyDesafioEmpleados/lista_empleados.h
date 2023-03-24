@@ -1,16 +1,11 @@
 /**
  * @file lista_empleados.h
- * @brief Definición de la estructura ListaEmpleados y las funciones para manejarla.
- *
+ * @brief Definición de la estructura ListaEmpleados y las funciones para manejarla. 
  * La estructura ListaEmpleados es una lista enlazada simple que contiene nodos que
  * a su vez contienen objetos de tipo Empleado. Las funciones definidas en este archivo
  * permiten crear, agregar, buscar, modificar, eliminar y mostrar la lista de empleados.
- *
  * @author Domingo Pérez
- * @date 2023-03-16
- * @version 1.0
- * @course Programacion 2
- * @center CeRP del Suroeste
+ * @date 18 de marzo de 2023
  */
 
 #ifndef LISTA_EMPLEADOS_H
@@ -26,21 +21,21 @@
  * @var Nodo::siguiente
  * Puntero al siguiente nodo de la lista.
 */
-typedef struct Nodo {
-    Empleado* empleado; /**< Empleado almacenado en el nodo */
-    struct Nodo *siguiente; /**< Puntero al siguiente nodo */
+typedef struct _nodo {
+    Empleado* empleado; /**< Puntero a miembro que almacena al empleado en el nodo */
+    struct _nodo *siguiente; /**< Puntero al siguiente nodo de la lista. */
 } Nodo;
 
 /**
  * @struct ListaEmpleados
  * @brief Estructura de la lista enlazada.
  */
-typedef struct ListaEmpleados {
+typedef struct _listaEmpleados {
     Nodo* cabeza; /**< Puntero al primer nodo de la lista */
     int longitud; /**< Cantidad de nodos en la lista */
 } ListaEmpleados;
 
-/**
+ /**
  * @brief Crea una nueva lista vacía.
  * @return Puntero a la nueva lista.
  */

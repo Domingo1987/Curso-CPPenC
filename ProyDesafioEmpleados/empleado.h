@@ -1,8 +1,8 @@
 /**
  * @file empleado.h
+ * @brief Archivo de cabecera para la estructura Empleado y sus operaciones. Programación 2, año 2023, CeRP del Suroeste
  * @author Domingo Pérez
  * @date 16 de marzo de 2023
- * @brief Archivo de cabecera para la estructura Empleado y sus operaciones. Programación 2, año 2023, CeRP del Suroeste
  */
 
 #ifndef EMPLEADO_H
