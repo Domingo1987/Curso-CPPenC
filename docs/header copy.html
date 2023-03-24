@@ -39,19 +39,44 @@ $extrastylesheet
 
 <!--BEGIN TITLEAREA-->
 <div id="titlearea">
-  <div class="logo-wrapper">
-    <div class="logo-image">
-      <img alt="Logo" src="$relpath^$projectlogo"/>
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <!--BEGIN PROJECT_LOGO-->
+  <td id="projectlogo"> 
+    <div class="logo-wrapper">
+      <div class="logo-image">
+        <img alt="Logo" src="$relpath^$projectlogo"/>
+      </div>
+      <div class="button-image">
+        <a href="https://github.com/Domingo1987/Curso-CPPenC">
+          <img alt="GitHub" src="../github-button.png" class="button-img">
+        </a>
+      </div>
     </div>
-    <div class="button-image">
-      <a href="https://github.com/Domingo1987/Curso-CPPenC">
-        <img alt="GitHub" src="../github-button.png" class="button-img">
-      </a>
-    </div>
-  </div>
+  </td>
+  <!--END PROJECT_LOGO-->
+
+  <!--BEGIN !PROJECT_NAME-->
+   <!--BEGIN PROJECT_BRIEF-->
+   <!--END PROJECT_BRIEF-->
+  <!--END !PROJECT_NAME-->
+  
+  <!--BEGIN DISABLE_INDEX-->
+   <!--BEGIN SEARCHENGINE-->
+     <!--BEGIN !FULL_SIDEBAR-->
+    <td>$searchbox</td>
+     <!--END !FULL_SIDEBAR-->
+   <!--END SEARCHENGINE-->
+  <!--END DISABLE_INDEX-->
+ </tr>
+  <!--BEGIN SEARCHENGINE-->
+   <!--BEGIN FULL_SIDEBAR-->
+   <tr><td colspan="2">$searchbox</td></tr>
+   <!--END FULL_SIDEBAR-->
+  <!--END SEARCHENGINE-->
+ </tbody>
+</table>
 </div>
-<!--END TITLEAREA-->
-
-
 <!--END TITLEAREA-->
 <!-- end header part -->
