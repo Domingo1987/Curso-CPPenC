@@ -1,0 +1,198 @@
+<!-- HTML header for doxygen 1.9.6-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Programación 2: Fichero Fuente ProyDesafioEmpleados/lista_empleados.c</title>
+<link rel="stylesheet" type="text/css" href="tabs.css">
+<link rel="stylesheet" type="text/css" href="docs/custom.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+  <table cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+          <div class="logo-image">
+            <img alt="Logo" src="logoDIC.png"/>
+          </div>
+        </tr>
+        <tr>
+          <div class="button-image">
+            <a href="https://github.com/Domingo1987">
+              <img alt="GitHub" src="../github-button.png" class="button-img">
+            </a>
+          </div>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2dd6cf884287e0aaf3ed7cfa3b8792b9.html">ProyDesafioEmpleados</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">lista_empleados.c</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="lista__empleados_8c.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;<a class="code" href="lista__empleados_8h.html">lista_empleados.h</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#a419c22916223300e9c987056df540bb0">    6</a></span><a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* <a class="code hl_function" href="lista__empleados_8c.html#a419c22916223300e9c987056df540bb0">crear_lista</a>() {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista = (<a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>*)malloc(<span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>));</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a> = NULL;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a00c2ff22cacdef0c94aa4dc39a01c091">longitud</a> = 0;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keywordflow">return</span> lista;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="comment">//return NULL;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>}</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#a70196702adc10f71c33f7fc07957ec5a">   15</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="lista__empleados_8c.html#a70196702adc10f71c33f7fc07957ec5a">agregar_empleado</a>(<a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* nombre, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">float</span> salario_mensual) {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_struct" href="struct_nodo.html">Nodo</a>* nuevo_nodo = (<a class="code hl_struct" href="struct_nodo.html">Nodo</a>*)malloc(<span class="keyword">sizeof</span>(<a class="code hl_struct" href="struct_nodo.html">Nodo</a>));</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_struct" href="struct_empleado.html">Empleado</a> *nuevo_empleado = <a class="code hl_function" href="empleado_8c.html#a5cab9c00a2be922eb67af6c4f74b8818">crear_empleado</a>(nombre, <span class="keywordtype">id</span>, salario_mensual);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    nuevo_nodo-&gt;<a class="code hl_variable" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a> = nuevo_empleado;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    nuevo_nodo-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a> = lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a> = nuevo_nodo;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a00c2ff22cacdef0c94aa4dc39a01c091">longitud</a>++;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>}</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#a74c56c665ed80816606f844433fe9e74">   24</a></span><a class="code hl_struct" href="struct_empleado.html">Empleado</a>* <a class="code hl_function" href="lista__empleados_8c.html#a74c56c665ed80816606f844433fe9e74">buscar_empleado</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista, <span class="keywordtype">int</span> <span class="keywordtype">id</span>) {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_struct" href="struct_nodo.html">Nodo</a>* actual = lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordflow">while</span> (actual != NULL) {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">if</span> (actual-&gt;<a class="code hl_variable" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a>-&gt;<a class="code hl_variable" href="struct_empleado.html#af939200b33bf922b2e92e4c2f0fc4383">id</a> == <span class="keywordtype">id</span>) {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keywordflow">return</span> (actual-&gt;<a class="code hl_variable" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        actual = actual-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#add505403efb414205dd59d6fe3c88375">   35</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="lista__empleados_8c.html#add505403efb414205dd59d6fe3c88375">modificar_empleado</a>(<a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">char</span> nuevoNombre[], <span class="keywordtype">float</span> nuevoSalario) {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_struct" href="struct_empleado.html">Empleado</a>* empleado_modificar = <a class="code hl_function" href="lista__empleados_8c.html#a74c56c665ed80816606f844433fe9e74">buscar_empleado</a>(lista, <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> (empleado_modificar != NULL) {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        strcpy(empleado_modificar-&gt;<a class="code hl_variable" href="struct_empleado.html#aa6c376a5e3b2c276a71ed969b975888a">nombre</a>, nuevoNombre);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        empleado_modificar-&gt;<a class="code hl_variable" href="struct_empleado.html#a421eb911f7f8b48c7d25d4d3d0f643a2">salario_mensual</a> = nuevoSalario;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#a34180a0640d6c071af25f6453b200823">   45</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="lista__empleados_8c.html#a34180a0640d6c071af25f6453b200823">eliminar_empleado_l</a>(<a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista, <span class="keywordtype">int</span> <span class="keywordtype">id</span>) {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_struct" href="struct_nodo.html">Nodo</a>* actual = lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_struct" href="struct_nodo.html">Nodo</a>* anterior = NULL;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordflow">while</span> (actual != NULL) {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">if</span> (actual-&gt;<a class="code hl_variable" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a>-&gt;<a class="code hl_variable" href="struct_empleado.html#af939200b33bf922b2e92e4c2f0fc4383">id</a> == <span class="keywordtype">id</span>) {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">if</span> (anterior == NULL) {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a> = actual-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                anterior-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a> = actual-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <a class="code hl_function" href="empleado_8c.html#aff27c437bf11fc3dac1d9b40740090cf">eliminar_empleado</a>(actual-&gt;<a class="code hl_variable" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            free(actual);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a00c2ff22cacdef0c94aa4dc39a01c091">longitud</a>--;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        anterior = actual;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        actual = actual-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#a0938d953b15463f108f0f3891b4bbf10">   65</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="lista__empleados_8c.html#a0938d953b15463f108f0f3891b4bbf10">mostrar_lista</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista) {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    printf(<span class="stringliteral">&quot;Lista de empleados:\n&quot;</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_struct" href="struct_nodo.html">Nodo</a>* actual = lista-&gt;<a class="code hl_variable" href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">cabeza</a>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">while</span> (actual != NULL) {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_function" href="empleado_8c.html#a5f48de8c1debdf887e6335e3a66a868f">mostrar_empleado</a>(actual-&gt;<a class="code hl_variable" href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">empleado</a>);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        actual = actual-&gt;<a class="code hl_variable" href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">siguiente</a>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="lista__empleados_8c.html#ad500eb409dbe6f38f31ef72ced6b0b16">   74</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="lista__empleados_8c.html#ad500eb409dbe6f38f31ef72ced6b0b16">liberar_lista</a>(<a class="code hl_struct" href="struct_lista_empleados.html">ListaEmpleados</a>* lista) {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">/*Nodo* actual = lista-&gt;cabeza;</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">    while (actual != NULL) {</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">        Nodo* siguiente = actual-&gt;siguiente;</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">        eliminar_empleado(actual-&gt;empleado);</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">        free(actual);</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment">        actual = siguiente;</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment">    }*/</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    free(lista);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
+<div class="ttc" id="aempleado_8c_html_a5cab9c00a2be922eb67af6c4f74b8818"><div class="ttname"><a href="empleado_8c.html#a5cab9c00a2be922eb67af6c4f74b8818">crear_empleado</a></div><div class="ttdeci">Empleado * crear_empleado(const char *nombre, int id, float salario_mensual)</div><div class="ttdoc">Función para crear un nuevo empleado.</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8c_source.html#l00006">empleado.c:6</a></div></div>
+<div class="ttc" id="aempleado_8c_html_a5f48de8c1debdf887e6335e3a66a868f"><div class="ttname"><a href="empleado_8c.html#a5f48de8c1debdf887e6335e3a66a868f">mostrar_empleado</a></div><div class="ttdeci">void mostrar_empleado(const Empleado *empleado)</div><div class="ttdoc">Función para mostrar los datos de un empleado.</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8c_source.html#l00018">empleado.c:18</a></div></div>
+<div class="ttc" id="aempleado_8c_html_aff27c437bf11fc3dac1d9b40740090cf"><div class="ttname"><a href="empleado_8c.html#aff27c437bf11fc3dac1d9b40740090cf">eliminar_empleado</a></div><div class="ttdeci">void eliminar_empleado(Empleado *empleado)</div><div class="ttdoc">Función para eliminar un empleado.</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8c_source.html#l00024">empleado.c:24</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_a0938d953b15463f108f0f3891b4bbf10"><div class="ttname"><a href="lista__empleados_8c.html#a0938d953b15463f108f0f3891b4bbf10">mostrar_lista</a></div><div class="ttdeci">void mostrar_lista(const ListaEmpleados *lista)</div><div class="ttdoc">Muestra todos los empleados en una lista enlazada.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00065">lista_empleados.c:65</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_a34180a0640d6c071af25f6453b200823"><div class="ttname"><a href="lista__empleados_8c.html#a34180a0640d6c071af25f6453b200823">eliminar_empleado_l</a></div><div class="ttdeci">void eliminar_empleado_l(ListaEmpleados *lista, int id)</div><div class="ttdoc">Elimina un empleado de una lista enlazada.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00045">lista_empleados.c:45</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_a419c22916223300e9c987056df540bb0"><div class="ttname"><a href="lista__empleados_8c.html#a419c22916223300e9c987056df540bb0">crear_lista</a></div><div class="ttdeci">ListaEmpleados * crear_lista()</div><div class="ttdoc">Crea una nueva lista vacía.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00006">lista_empleados.c:6</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_a70196702adc10f71c33f7fc07957ec5a"><div class="ttname"><a href="lista__empleados_8c.html#a70196702adc10f71c33f7fc07957ec5a">agregar_empleado</a></div><div class="ttdeci">void agregar_empleado(ListaEmpleados *lista, const char *nombre, int id, float salario_mensual)</div><div class="ttdoc">Agrega un nuevo empleado a la lista.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00015">lista_empleados.c:15</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_a74c56c665ed80816606f844433fe9e74"><div class="ttname"><a href="lista__empleados_8c.html#a74c56c665ed80816606f844433fe9e74">buscar_empleado</a></div><div class="ttdeci">Empleado * buscar_empleado(const ListaEmpleados *lista, int id)</div><div class="ttdoc">Busca un empleado por su identificación en una lista enlazada.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00024">lista_empleados.c:24</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_ad500eb409dbe6f38f31ef72ced6b0b16"><div class="ttname"><a href="lista__empleados_8c.html#ad500eb409dbe6f38f31ef72ced6b0b16">liberar_lista</a></div><div class="ttdeci">void liberar_lista(ListaEmpleados *lista)</div><div class="ttdoc">Libera la memoria ocupada por una lista enlazada y sus empleados.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00074">lista_empleados.c:74</a></div></div>
+<div class="ttc" id="alista__empleados_8c_html_add505403efb414205dd59d6fe3c88375"><div class="ttname"><a href="lista__empleados_8c.html#add505403efb414205dd59d6fe3c88375">modificar_empleado</a></div><div class="ttdeci">int modificar_empleado(ListaEmpleados *lista, int id, char nuevoNombre[], float nuevoSalario)</div><div class="ttdoc">Modifica los datos de un empleado en una lista enlazada.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8c_source.html#l00035">lista_empleados.c:35</a></div></div>
+<div class="ttc" id="alista__empleados_8h_html"><div class="ttname"><a href="lista__empleados_8h.html">lista_empleados.h</a></div><div class="ttdoc">Definición de la estructura ListaEmpleados y las funciones para manejarla. La estructura ListaEmplead...</div></div>
+<div class="ttc" id="astruct_empleado_html"><div class="ttname"><a href="struct_empleado.html">Empleado</a></div><div class="ttdoc">Estructura que representa a un empleado con su nombre, id y salario mensual.</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8h_source.html#l00015">empleado.h:15</a></div></div>
+<div class="ttc" id="astruct_empleado_html_a421eb911f7f8b48c7d25d4d3d0f643a2"><div class="ttname"><a href="struct_empleado.html#a421eb911f7f8b48c7d25d4d3d0f643a2">Empleado::salario_mensual</a></div><div class="ttdeci">float salario_mensual</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8h_source.html#l00018">empleado.h:18</a></div></div>
+<div class="ttc" id="astruct_empleado_html_aa6c376a5e3b2c276a71ed969b975888a"><div class="ttname"><a href="struct_empleado.html#aa6c376a5e3b2c276a71ed969b975888a">Empleado::nombre</a></div><div class="ttdeci">char nombre[50]</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8h_source.html#l00016">empleado.h:16</a></div></div>
+<div class="ttc" id="astruct_empleado_html_af939200b33bf922b2e92e4c2f0fc4383"><div class="ttname"><a href="struct_empleado.html#af939200b33bf922b2e92e4c2f0fc4383">Empleado::id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="empleado_8h_source.html#l00017">empleado.h:17</a></div></div>
+<div class="ttc" id="astruct_lista_empleados_html"><div class="ttname"><a href="struct_lista_empleados.html">ListaEmpleados</a></div><div class="ttdoc">Estructura de la lista enlazada.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8h_source.html#l00033">lista_empleados.h:33</a></div></div>
+<div class="ttc" id="astruct_lista_empleados_html_a00c2ff22cacdef0c94aa4dc39a01c091"><div class="ttname"><a href="struct_lista_empleados.html#a00c2ff22cacdef0c94aa4dc39a01c091">ListaEmpleados::longitud</a></div><div class="ttdeci">int longitud</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8h_source.html#l00035">lista_empleados.h:35</a></div></div>
+<div class="ttc" id="astruct_lista_empleados_html_a70afcc7508b78f66066fa19aa1c468a6"><div class="ttname"><a href="struct_lista_empleados.html#a70afcc7508b78f66066fa19aa1c468a6">ListaEmpleados::cabeza</a></div><div class="ttdeci">Nodo * cabeza</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8h_source.html#l00034">lista_empleados.h:34</a></div></div>
+<div class="ttc" id="astruct_nodo_html"><div class="ttname"><a href="struct_nodo.html">Nodo</a></div><div class="ttdoc">Estructura que representa un nodo de la lista enlazada de empleados.</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8h_source.html#l00024">lista_empleados.h:24</a></div></div>
+<div class="ttc" id="astruct_nodo_html_a718cef7e7f2fc51b6efcd2df5b43733b"><div class="ttname"><a href="struct_nodo.html#a718cef7e7f2fc51b6efcd2df5b43733b">Nodo::siguiente</a></div><div class="ttdeci">struct _nodo * siguiente</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8h_source.html#l00026">lista_empleados.h:26</a></div></div>
+<div class="ttc" id="astruct_nodo_html_ae5f216b4a9f20d3d43fc701fa3220c91"><div class="ttname"><a href="struct_nodo.html#ae5f216b4a9f20d3d43fc701fa3220c91">Nodo::empleado</a></div><div class="ttdeci">Empleado * empleado</div><div class="ttdef"><b>Definition:</b> <a href="lista__empleados_8h_source.html#l00025">lista_empleados.h:25</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>
