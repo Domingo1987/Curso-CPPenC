@@ -1025,7 +1025,7 @@ EXCLUDE_SYMLINKS       = NO
 # exclude all test directories for example use the pattern */test/*
 
 #EXCLUDE_PATTERNS       =
-EXCLUDE_PATTERNS = ^main\.c$
+EXCLUDE_PATTERNS = */main.c
 
 # The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
 # (namespaces, classes, functions, etc.) that should be excluded from the
@@ -1322,7 +1322,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            = ./docs/header.html   
+HTML_HEADER            = ./docs/headerButton.html   
 #HTML_HEADER            = ./docs/html/header.html   
 #volviendo al header original
 #HTML_HEADER            = 
