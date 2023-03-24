@@ -2,7 +2,7 @@
  * @file nada.h
  * @brief Nada
  * @author Domingo Pérez
- * @date 24 de marzo de 2023
+ * @date 23 de marzo de 2023
  */
 
 #ifndef NADA_H
