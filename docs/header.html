@@ -57,24 +57,29 @@ $extrastylesheet
  <tbody>
  <tr id="projectrow">
   <!--BEGIN PROJECT_LOGO-->
-  <td id="projectlogo"><img alt="Logo" src="$relpath^$projectlogo"/></td>
+  <td id="projectlogo">
+    <table>
+      <tr>
+        <td>Sección 1</td>
+        <td>Sección 2</td>
+        <!--BEGIN Botón de GitHub -->
+        <td id="projectbutton">
+          <a href="https://domingo1987.github.io/Curso-CPPenC/docs/html/index.html" class="button">
+            View Project on GitHub
+          </a>
+        </td>
+        <!--END Botón de GitHub -->
+      </tr>
+    </table>
+    <img alt="Logo" src="$relpath^$projectlogo"/>
+  </td>
   <!--END PROJECT_LOGO-->
 
   <!--BEGIN !PROJECT_NAME-->
    <!--BEGIN PROJECT_BRIEF-->
-    <td>
-    <div id="projectbrief">$projectbrief</div>
-    </td>
    <!--END PROJECT_BRIEF-->
   <!--END !PROJECT_NAME-->
   
-  <!--BEGIN Botón de GitHub -->
-  <td id="projectbutton">
-    <a href="https://domingo1987.github.io/Curso-CPPenC/docs/html/index.html" class="button">
-      View Project on GitHub
-    </a>
-  </td>
-  <!--END Botón de GitHub -->
   <!--BEGIN DISABLE_INDEX-->
    <!--BEGIN SEARCHENGINE-->
      <!--BEGIN !FULL_SIDEBAR-->
