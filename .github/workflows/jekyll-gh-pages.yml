@@ -35,15 +35,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          #new
-      - name: Copy custom header
-        run: cp docs/headerButton.html _site/headerButton.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        # cambio
-        with:
-          name: site
-          path: _site
 
   # Deployment job
   deploy:
