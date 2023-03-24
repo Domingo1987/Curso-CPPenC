@@ -54,13 +54,5 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          branch: gh-pages
-          folder: _site
-          clean: true
-          token: ${{ secrets.GITHUB_TOKEN }}
-          single-commit: true
-      #- name: Deploy to GitHub Pages
-       # id: deployment
-        #uses: actions/deploy-pages@v1
+        id: deployment
+        uses: actions/deploy-pages@v1
