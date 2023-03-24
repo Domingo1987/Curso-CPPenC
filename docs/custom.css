@@ -40,3 +40,11 @@
   font-family: var(--font-family-normal);
   line-height: 22px;
 }
+
+body, table, div, p, dl {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: var(--font-family-normal);
+  line-height: 22px;
+  display: contents;
+}
