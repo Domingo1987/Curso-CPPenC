@@ -10,6 +10,9 @@
 <!--BEGIN PROJECT_NAME--><title>$projectname: $title</title><!--END PROJECT_NAME-->
 <!--BEGIN !PROJECT_NAME--><title>$title</title><!--END !PROJECT_NAME-->
 <link href="$relpath^tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="docs/custom.css">
+
+
 <!--BEGIN DISABLE_INDEX-->
   <!--BEGIN FULL_SIDEBAR-->
 <script type="text/javascript">var page_layout=1;</script>
@@ -42,10 +45,14 @@ $extrastylesheet
   <!--BEGIN PROJECT_LOGO-->
   <td id="projectlogo"> 
     <div class="logo-wrapper">
-      <img alt="Logo" src="$relpath^$projectlogo"/>
-      <a href="https://github.com/Domingo1987/Curso-CPPenC" class="button">
-        Ver en GitHub
-      </a>
+      <div class="logo-image">
+        <img alt="Logo" src="$relpath^$projectlogo"/>
+      </div>
+      <div class="button-image">
+        <a href="https://github.com/Domingo1987/Curso-CPPenC" class="button">
+          Ver en GitHub
+        </a>
+      </div>
     </div>
   </td>
   <!--END PROJECT_LOGO-->
