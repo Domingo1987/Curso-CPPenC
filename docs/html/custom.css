@@ -9,6 +9,7 @@
 }
 
 .button-image {
+  display: flex;
   align-items: center; /* para centrar verticalmente */
   width: 20%;
   text-align: right;
