@@ -76,5 +76,8 @@
         "soluciones",
         "Suroeste",
         "utilizando"
-    ]
+    ],
+    "files.associations": {
+        "stdlib.h": "c"
+    }
 }
