@@ -1,0 +1,288 @@
+<!-- HTML header for doxygen 1.9.6-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Programación 2: Referencia del Archivo ProyAnalisisAlgoritmos/medicion_tiempo.c</title>
+<link rel="stylesheet" type="text/css" href="tabs.css">
+<link rel="stylesheet" type="text/css" href="docs/custom.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+  <table cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+          <div class="logo-image">
+            <img alt="Logo" src="logoDIC.png"/>
+          </div>
+        </tr>
+        <tr>
+          <div class="button-image">
+            <a href="https://github.com/Domingo1987">
+              <img alt="GitHub" src="../github-button.png" class="button-img">
+            </a>
+          </div>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_1e74b1a11fef4b2be6d78dd0edf4e348.html">ProyAnalisisAlgoritmos</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">defines</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del Archivo medicion_tiempo.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Código para medir el tiempo de ejecución de una función.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;sys/time.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+</div>
+<p><a href="medicion__tiempo_8c_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+defines</h2></td></tr>
+<tr class="memitem:a0240ac851181b84ac374872dc5434ee4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="medicion__tiempo_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a0240ac851181b84ac374872dc5434ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b4816fb45161ef9da5e6d6134ee28a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="medicion__tiempo_8c.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>&#160;&#160;&#160;10000</td></tr>
+<tr class="separator:ae0b4816fb45161ef9da5e6d6134ee28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a14a9bbe84c6ac955913ed2358bbb39c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="medicion__tiempo_8c.html#a14a9bbe84c6ac955913ed2358bbb39c8">sumatoria</a> (int n)</td></tr>
+<tr class="memdesc:a14a9bbe84c6ac955913ed2358bbb39c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función que calcula la suma de los primeros n números enteros positivos.  <br /></td></tr>
+<tr class="separator:a14a9bbe84c6ac955913ed2358bbb39c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6722dc4949e50193171b5070b14b000"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="medicion__tiempo_8c.html#aa6722dc4949e50193171b5070b14b000">minimo</a> (int arr[])</td></tr>
+<tr class="memdesc:aa6722dc4949e50193171b5070b14b000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función 2.  <br /></td></tr>
+<tr class="separator:aa6722dc4949e50193171b5070b14b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d87db1c97595bc52980e7e3eeab6ca6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="medicion__tiempo_8c.html#a7d87db1c97595bc52980e7e3eeab6ca6">determinar_tipo_crecimiento</a> (int tiempos[], int n)</td></tr>
+<tr class="memdesc:a7d87db1c97595bc52980e7e3eeab6ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función para determinar el tipo de crecimiento en un arreglo de tiempos medidos.  <br /></td></tr>
+<tr class="separator:a7d87db1c97595bc52980e7e3eeab6ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="medicion__tiempo_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función principal.  <br /></td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Código para medir el tiempo de ejecución de una función. </p>
+<p>Este código mide el tiempo de ejecución de la función "suma" para distintos valores de N y almacena los tiempos en un arreglo. Finalmente, imprime los tiempos medidos en pantalla. Unidad: Análisis de Algoritmos Curso: Programación 2 Institución: CeRP del Suroeste </p><dl class="section date"><dt>Fecha</dt><dd>27 de marzo de 2023 </dd></dl>
+
+<p class="definition">Definición en el archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+</div><h2 class="groupheader">Documentación de los 'defines'</h2>
+<a id="a0240ac851181b84ac374872dc5434ee4" name="a0240ac851181b84ac374872dc5434ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0240ac851181b84ac374872dc5434ee4">&#9670;&#160;</a></span>N</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define N&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="medicion__tiempo_8c_source.html#l00019">19</a> del archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+
+</div>
+</div>
+<a id="ae0b4816fb45161ef9da5e6d6134ee28a" name="ae0b4816fb45161ef9da5e6d6134ee28a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0b4816fb45161ef9da5e6d6134ee28a">&#9670;&#160;</a></span>TAM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAM&#160;&#160;&#160;10000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="medicion__tiempo_8c_source.html#l00020">20</a> del archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="a7d87db1c97595bc52980e7e3eeab6ca6" name="a7d87db1c97595bc52980e7e3eeab6ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d87db1c97595bc52980e7e3eeab6ca6">&#9670;&#160;</a></span>determinar_tipo_crecimiento()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void determinar_tipo_crecimiento </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tiempos</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función para determinar el tipo de crecimiento en un arreglo de tiempos medidos. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tiempos</td><td>Arreglo de tiempos medidos </td></tr>
+    <tr><td class="paramname">n</td><td>Tamaño del arreglo Determina el tipo de crecimiento de una secuencia de tiempos.</td></tr>
+    <tr><td class="paramname">tiempos</td><td>arreglo de tiempos. </td></tr>
+    <tr><td class="paramname">n</td><td>longitud del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="medicion__tiempo_8c_source.html#l00065">65</a> del archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función principal. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="medicion__tiempo_8c_source.html#l00087">87</a> del archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+
+</div>
+</div>
+<a id="aa6722dc4949e50193171b5070b14b000" name="aa6722dc4949e50193171b5070b14b000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6722dc4949e50193171b5070b14b000">&#9670;&#160;</a></span>minimo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int minimo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>arr</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función 2. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr[]</td><td>arreglo de numeros </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>min el minimo valor del arreglo </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="medicion__tiempo_8c_source.html#l00042">42</a> del archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+
+</div>
+</div>
+<a id="a14a9bbe84c6ac955913ed2358bbb39c8" name="a14a9bbe84c6ac955913ed2358bbb39c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14a9bbe84c6ac955913ed2358bbb39c8">&#9670;&#160;</a></span>sumatoria()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sumatoria </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Función que calcula la suma de los primeros n números enteros positivos. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>La cantidad de números enteros positivos a sumar </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>La suma de los primeros n números enteros positivos </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="medicion__tiempo_8c_source.html#l00028">28</a> del archivo <a class="el" href="medicion__tiempo_8c_source.html">medicion_tiempo.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

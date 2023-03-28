@@ -35,4 +35,5 @@ var menudata={children:[
 {text:"Lista de archivos",url:"files.html"},
 {text:"Miembros de los ficheros",url:"globals.html",children:[
 {text:"Todo",url:"globals.html"},
-{text:"Funciones",url:"globals_func.html"}]}]}]}
+{text:"Funciones",url:"globals_func.html"},
+{text:"defines",url:"globals_defs.html"}]}]}]}

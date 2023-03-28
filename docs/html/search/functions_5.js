@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['liberar_5flista_0',['liberar_lista',['../lista__empleados_8c.html#ad500eb409dbe6f38f31ef72ced6b0b16',1,'liberar_lista(ListaEmpleados *lista):&#160;lista_empleados.c'],['../lista__empleados_8h.html#ad500eb409dbe6f38f31ef72ced6b0b16',1,'liberar_lista(ListaEmpleados *lista):&#160;lista_empleados.c']]]
+  ['guardar_5flista_5fempleados_0',['guardar_lista_empleados',['../file__manager_8c.html#a281a8d64e32e5ec34a76d6e13babe587',1,'guardar_lista_empleados(const char *filename, ListaEmpleados *lista):&#160;file_manager.c'],['../file__manager_8h.html#a281a8d64e32e5ec34a76d6e13babe587',1,'guardar_lista_empleados(const char *filename, ListaEmpleados *lista):&#160;file_manager.c']]]
 ];
