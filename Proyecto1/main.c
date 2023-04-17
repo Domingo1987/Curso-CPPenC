@@ -8,9 +8,12 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
 
 int main() {
     printf("Hola, mundo de C!");
     
+    system("pause");
     return 0;
 }
