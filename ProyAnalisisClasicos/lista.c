@@ -310,3 +310,11 @@ void lista_test(lista_t *lista) {
     }
     printf("\n");
 }
+
+void lista_mostrar(lista_t lista){
+    nodo_t* nodo = (nodo_t*)malloc(sizeof(nodo_t));
+    for (nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
+        printf("%d ", nodo->valor);
+    }
+    printf("\n");      
+}

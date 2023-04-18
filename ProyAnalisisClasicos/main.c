@@ -20,7 +20,6 @@
 
 /**
  * @brief Función para realizar la selección del tipo de estructura de datos.
- * 
  * @return Entero que representa la opción seleccionada.
  */
 int seleccionar_estructura() {
@@ -35,7 +34,6 @@ int seleccionar_estructura() {
 
 /**
  * @brief Función para realizar la selección del algoritmo a utilizar.
- * 
  * @return Entero que representa la opción seleccionada.
  */
 int seleccionar_algoritmo(int est) {
@@ -137,10 +135,7 @@ int main() {
             arreglo_test(&arr);
             break;  
         case 21:
-            for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
-                printf("%d ", nodo->valor);
-            }
-            printf("\n");
+            lista_mostrar(lista); 
 
             lista_sort(&lista);
             for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
@@ -150,7 +145,7 @@ int main() {
 
             printf("\nUtilizando Búsqueda binaria.\n");
             // Buscamos un valor en la lista utilizando búsqueda binaria
-            valor_buscar = 9;
+            valor_buscar = 4;
             nodo_t *nodo_encontrado = (nodo_t*) malloc(sizeof(nodo_t));
             nodo_encontrado = lista_binary_search(&lista, valor_buscar);
 

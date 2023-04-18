@@ -134,4 +134,11 @@ void lista_reverse(lista_t* lista);
  */
 void lista_test(lista_t *lista);
 
+/**
+ * @brief Funcion que muestra la lista de valores
+ * @param arr lista.
+ */
+void lista_mostrar(lista_t lista);
+
+
 #endif // LISTA_H_INCLUDED
