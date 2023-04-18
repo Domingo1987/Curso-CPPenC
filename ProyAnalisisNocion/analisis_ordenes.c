@@ -9,8 +9,6 @@
  * 
  */
 
-
-
 /**
  * @brief Ejemplo de primer Doxygen con enlace a contenido externo.
  * En este ejemplo se muestra como incluir un enlace a contenido externo en Doxygen.

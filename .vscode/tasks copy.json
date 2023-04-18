@@ -6,8 +6,8 @@
             "type": "shell",
             "command": "gcc",
             "args": [
-                "-g",               
-               "*.c",
+                "-g",
+                "*.c",
                 "-o",
                 "${fileDirname}\\main.exe"
             ],
