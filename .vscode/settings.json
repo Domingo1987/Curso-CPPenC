@@ -83,7 +83,8 @@
         "stdio.h": "c",
         "stdbool.h": "c",
         "arreglo.h": "c",
-        "algoritmosclasicos.h": "c"
+        "algoritmosclasicos.h": "c",
+        "empleado.h": "c"
     }
 
     
