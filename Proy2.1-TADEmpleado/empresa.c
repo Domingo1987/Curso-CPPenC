@@ -13,7 +13,7 @@ void quitarEmpleado(Empresa *empresa, int cedula) {
                 empresa->empleados[j] = empresa->empleados[j + 1];
             }
             empresa->cantidadEmpleados--;
-            break;
+            break; 
         }
     }
 }
